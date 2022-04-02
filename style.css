@@ -176,6 +176,8 @@ header{
     }
     .bottom-box-container{
         top:72.5%;
-        
+    }
+    .number::after{
+        display:none;
     }
 }
