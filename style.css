@@ -38,22 +38,24 @@ body{
     width:100%;
     height:100vh;
     gap:2rem;
-    padding:0 12.5rem;
+    padding:0 17rem;
     margin:0 auto;
 }
 header{
     background-color: var(--Dark-Blue);
-    width:320px;
+    width:60%;
     padding:2rem;
+    border-radius: 10px;
     border-top-right-radius: 40%;
     display:grid;
     align-items: center;
-    margin-top:-1rem;
+    margin-top:-3.25rem;
 }
 .icon-container{
     display:flex;
     margin:2rem 0 0 0;
     gap:1rem;
+    width:175px;
 }
 .container{
     width:50px;
@@ -71,7 +73,7 @@ header{
     color:var(--Pale-Blue);
     display:grid;
     background-color: var(--Dark-Blue);
-    padding:2rem;
+    padding:1.25rem;
     border-radius:10px;
     align-items: center;
     width:100%;
@@ -88,7 +90,7 @@ header{
     flex-direction: row;
     background-color:var(--Very-Dark-Blue);
     border-radius:10px;
-    height:20px;
+    height:17px;
     align-items: center;
     padding:0.2rem;
     margin-top:0;
@@ -106,22 +108,23 @@ header{
 .ball{
     background-color:white;
     border-radius:10px;
-    height:11px;
-    width:11px;
+    height:9px;
+    width:9px;
     text-align:right;
     display:block;
-    margin-left:33.75rem;
+    margin-left:23.6rem;
+    margin-bottom:0;
 }
 .gb {
     display:flex;
     justify-content: space-between;
-    margin-top:-1rem;
+    margin-top:-1.5rem;
 }
 .bottom-box-container{
     display:flex;
     justify-content: center;
     position:absolute;
-    top:34.5%;
+    top:37%;
     right:21%;
 }
 .number{
@@ -166,16 +169,25 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding:1rem;
+    }
+    header{
+        width:100%;
     }
     .storage{
-        width:320px;
+        width:100%;
         margin-top:-1rem;
+    
     }
     .ball{
-        margin-left:12rem;
+        margin-left:13.7rem;
+    }
+    .gb {
+        margin-bottom:1rem;
     }
     .bottom-box-container{
-        top:72.5%;
+        top:68.5%;
+        left:20%;
     }
     .number::after{
         display:none;
